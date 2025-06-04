@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
         { path: "components/breadcrumb.html", elementId: "breadcrumb" },
         { path: "components/back-to-top.html", elementId: "back-to-top" },
         { path: "components/alert.html", elementId: "alert" },
-        { path: "components/loading.html", elementId: "loading" }
+        { path: "components/loading.html", elementId: "loading" },
         // Add more here as you create more reusable components
     ];
 
