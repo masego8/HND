@@ -1,0 +1,65 @@
+:root {
+  /* Color palette */
+  --primary-color: #007bff;
+  --primary-dark: #0056b3;
+  --secondary-color: #f7f7f7;
+  --text-color: #333333;
+  --background-color: #ffffff;
+  --card-background: #f9f9f9;
+  --shadow-color: rgba(0, 0, 0, 0.1);
+
+  /* Typography */
+  --font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  --base-font-size: 16px;
+  --line-height: 1.6;
+
+  /* Spacing */
+  --container-padding: 20px;
+  --card-padding: 15px;
+  --border-radius: 8px;
+
+  /* Alerts */
+  --success-bg: #d4edda;
+  --success-text: #155724;
+  --error-bg: #f8d7da;
+  --error-text: #721c24;
+  --info-bg: #d1ecf1;
+  --info-text: #0c5460;
+}
+
+body {
+  font-family: var(--font-family);
+  font-size: var(--base-font-size);
+  line-height: var(--line-height);
+  color: var(--text-color);
+  background-color: var(--secondary-color);
+  padding-bottom: 50px;
+}
+
+#content {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: var(--container-padding);
+  background-color: var(--background-color);
+  box-shadow: 0 1px 3px var(--shadow-color);
+  border-radius: var(--border-radius);
+  min-height: 400px;
+}
+
+#page-container {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0px;
+}
+
+@media (max-width: 768px) {
+  #content {
+    padding: 15px;
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
