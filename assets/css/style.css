@@ -37,7 +37,7 @@ body {
 }
 
 #content {
-  max-width: 1000px;
+  max-width: 1400px;
   margin: 0 auto;
   padding: var(--container-padding);
   background-color: var(--background-color);
@@ -61,5 +61,104 @@ body {
     flex-direction: column;
     align-items: center;
   }
+}
+
+.meta-skills {
+  max-width: 1000px;
+  margin: 4rem auto;
+  padding: 2rem;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.meta-skills h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.meta-group {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.meta-group h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #ccc;
+  display: inline-block;
+  padding-bottom: 0.5rem;
+}
+
+.meta-skill {
+  display: inline-block;
+  width: 180px;
+  margin: 1rem;
+  padding: 1rem;
+  background: #f9f9f9;
+  border-radius: 6px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+}
+
+.meta-skill h4 {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.meta-skill p {
+  margin: 0.2rem 0;
+  font-size: 0.9rem;
+  color: #444;
+}
+
+.stars {
+  font-size: 1.2rem;
+  color: #000;
+  letter-spacing: 0.1rem;
+  margin-top: 0.4rem;
+}
+
+.meta-development,
+.meta-reflection {
+  max-width: 1000px;
+  margin: 4rem auto;
+  padding: 2rem;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.meta-development h2,
+.meta-reflection h2 {
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.meta-skills-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1.5rem;
+}
+
+.meta-skills-table th,
+.meta-skills-table td {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  vertical-align: top;
+  text-align: left;
+}
+
+.meta-skills-table th {
+  background-color: #f0f0f0;
+  font-weight: bold;
+}
+
+.meta-reflection ul {
+  padding-left: 1.2rem;
+  list-style-type: disc;
+  margin-top: 1rem;
+}
+
+.meta-reflection li {
+  margin-bottom: 1rem;
+  line-height: 1.6;
 }
 
